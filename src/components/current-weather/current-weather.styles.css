@@ -13,7 +13,6 @@
 .CurrentWeather {
     width: 70vw;
     height: auto;
-    /*margin: 0 auto;*/
     padding: 25px 0;
     background-color: rgba(87,84,122,0.8);
     border-radius: 20px;
