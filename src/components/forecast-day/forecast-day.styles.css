@@ -1,0 +1,26 @@
+.Forecast-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgba(87,84,122,0.8);
+    border-radius: 20px;
+}
+
+.Forecast-container h2{
+    font-size: 1.5rem;
+}
+
+.Forecast-container p{
+    font-size: 1.25rem;
+}
+.Forecast-container img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.Forecast-container:hover{
+    transform: scale(1.02);
+}
