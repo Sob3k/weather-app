@@ -1,3 +1,31 @@
+@media (max-width: 1000px) {
+    .searchInput{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .form-btn {
+        width: 50%;
+        margin: 25px auto 0 auto;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1001px){
+    .searchInput {
+        width: 90%;
+        float: left;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .form-btn {
+        width: 10%;
+        float: left;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
 .SearchForm-container {
     width: 70vw;
     margin: 25px auto;
@@ -5,11 +33,11 @@
 }
 
 .searchInput {
-    width: 90%;
-    float: left;
+    /*width: 90%;*/
+    /*float: left;*/
     height: 40px;
     border: none;
-    border-radius: 10px 0px 0px 10px;
+    /*border-radius: 10px 0px 0px 10px;*/
     padding: 0;
     line-height: normal;
 }
@@ -33,14 +61,14 @@
 .form-btn {
     box-sizing: content-box;
     vertical-align: top;
-    width: 10%;
-    float: left;
+    /*width: 10%;*/
+    /*float: left;*/
     height: 40px;
     padding: 0;
     border: none;
     color: white;
     background-color: #050A26;
-    border-radius: 0px 10px 10px 0px;
+    /*border-radius: 0px 10px 10px 0px;*/
     font-family: 'Lato',sans-serif;
     font-size: 0.8rem;
     font-weight: bold;

@@ -1,7 +1,19 @@
+@media (max-width: 1000px) {
+    .CurrentWeather {
+        margin: 100px auto 0 auto;
+    }
+}
+
+@media (min-width: 1001px) {
+    .CurrentWeather {
+        margin: 0 auto;
+    }
+}
+
 .CurrentWeather {
     width: 70vw;
     height: auto;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding: 25px 0;
     background-color: rgba(87,84,122,0.8);
     border-radius: 20px;
