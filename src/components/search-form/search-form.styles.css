@@ -34,25 +34,10 @@
 
 .searchInput {
     height: 40px;
+    box-sizing: border-box;
     border: none;
-    padding: 0;
+    padding: 0 0 0 10px;
     line-height: normal;
-}
-
-.searchInput::-webkit-input-placeholder { /* Edge */
-    padding-left: 10px;
-}
-
-.searchInput::-ms-input-placeholder { /* Internet Explorer 10-11 */
-    padding-left: 10px;
-}
-
-.searchInput::placeholder {
-    padding-left: 10px;
-}
-
-.searchInput::-moz-placeholder {
-    padding-left: 10px;
 }
 
 .form-btn {
